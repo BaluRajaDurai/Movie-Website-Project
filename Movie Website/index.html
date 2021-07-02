@@ -1,0 +1,314 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movie Website</title>
+</head>
+<body>
+    <div class="navbar">
+        <Section id="Home">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">Tulip Movies</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item"><a href="#Movies">Movies</a></li>
+                    <li class="menu-list-item"><a href="#Popular">Popular</a></li>
+                    <li class="menu-list-item"><a href="#Trends">Trends</a></li>
+                    <li class="menu-list-item"><a href="#Series">Series</a></li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/blank-profile-picture-973460_640.png" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+        </Section>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <a href="#Home"><i class="left-menu-icon fas fa-home"></i></a>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0),#151515), url('img/F9-1140-1024x359.jpg');"
+                >
+                <img class="featured-title" src="img/title.png" alt="">
+                <p class="featured-desc">Vin Diesel's Dom Toretto is leading a quiet life off the grid with Letty and his son, little 
+                    Brian, but they know that danger always lurks just over their peaceful horizon. Cipher enlists the help of Jakob, 
+                    Dom's younger brother to take revenge on Dom and his team.</p>
+                <button class="featured-button1"  onClick="location.href='Movies/F9.html'">Watch</button>
+            </div>
+            <Section id="Movies">
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/fast_and_furious_9_instagram.width-800.jpg" alt="">
+                            <span class="movie-list-item-title">F9:The Fast Saga</span>
+                            <p class="movie-list-item-desc">Cipher enlists the help of Jakob, 
+                                Dom's younger brother to take revenge on Dom and his team.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/F9.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/N95NighWhALCHizdFtx2DT.jpg" alt="">
+                            <span class="movie-list-item-title">Black Widow</span>
+                            <p class="movie-list-item-desc">A film about Natasha Romanoff in her quests between the films Civil War and
+                                 Infinity War.</p>
+                            <button class="movie-list-item-button"  onClick="location.href='Movies/blackwidow.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/fe07636e-e5c1-43bc-add9-f91511af7983-quietplace.jpg" alt="">
+                            <span class="movie-list-item-title">Quiet Place II</span>
+                            <p class="movie-list-item-desc">Following the events at home,they realize the creatures that hunt by sound 
+                                are not the only threats lurking beyond the sand path.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/quiteplace.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Awake.jpg" alt="">
+                            <span class="movie-list-item-title">Awake</span>
+                            <p class="movie-list-item-desc">After a devastating global event wiped out all electronics and eliminated 
+                                people's ability to sleep, but solution with her daughter.</p>
+                                <button class="movie-list-item-button" onClick="location.href='Movies/awake.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/mort komb.png" alt="">
+                            <span class="movie-list-item-title">Mortal Kombat</span>
+                            <p class="movie-list-item-desc">MMA fighter Cole Young seeks out Earth's greatest champions in order to 
+                                stand against the enemies of Outworld in a battle for the universe.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/mortalkombat.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/images (6).jfif" alt="">
+                            <span class="movie-list-item-title">Nobody</span>
+                            <p class="movie-list-item-desc">A bystander who intervenes to help a woman being harassed by a group of men
+                                 becomes the target of a vengeful drug lord.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/nobody.html'">Watch</button>>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/fatherhood.jpg" alt="">
+                            <span class="movie-list-item-title">Fatherhood</span>
+                            <p class="movie-list-item-desc">A father brings up his baby girl as a single dad after the unexpected death 
+                                of his wife who died a day after their daughter's birth.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/fatherhood.html'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            </Section>
+            <section id="Popular">
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Predestination1.jpg" alt="">
+                            <span class="movie-list-item-title">Predestination</span>
+                            <p class="movie-list-item-desc">For his final assignment, the chase turns into a unique, 
+                                surprising and mind-bending exploration of love, fate, identity and time travel.</p>
+                            <button class="movie-list-item-button"  onClick="location.href='Movies/predestination.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/interstellar.0.0.jpg" alt="">
+                            <span class="movie-list-item-title">Interstellar</span>
+                            <p class="movie-list-item-desc">A team of explorers travel through a wormhole in space in an attempt to
+                                 ensure humanity's survival.</p>
+                            <button class="movie-list-item-button"  onClick="location.href='Movies/interstellar.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2929.jpg" alt="">
+                            <span class="movie-list-item-title">Avatar</span>
+                            <p class="movie-list-item-desc">A paraplegic Marine dispatched to Pandora on a unique mission
+                                following his orders and protecting the world he feels is his home.
+			                </p>
+                            <button class="movie-list-item-button"  onClick="location.href='Movies/avatar.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Titanic-1.jpg" alt="">
+                            <span class="movie-list-item-title">Titanic</span>
+                            <p class="movie-list-item-desc">A seventeen-year-old aristocrat falls in love with a kind but poor artist
+                                 aboard the luxurious, ill-fated R.M.S. Titanic.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/titanic.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/End Game.jpg" alt="">
+                            <span class="movie-list-item-title">End Game</span>
+                            <p class="movie-list-item-desc">With the help of remaining allies, the Avengers assemble once more in order
+                                 to reverse Thanos' actions and restore balance to the universe.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/endgame.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/the-lion-king-2019-4k-movie-ru-1600x900.jpg" alt="">
+                            <span class="movie-list-item-title">Lion King</span>
+                            <p class="movie-list-item-desc">After the murder of his father, a young lion prince flees his kingdom only
+                                 to learn the true meaning of responsibility and bravery.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/lionking.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Joker.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">In Gotham City, mentally troubled Arthur Fleck is disregarded and 
+                                mistreated by society brings him to-face with his ego the Joker.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/joker.html'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            </section>
+            <Section id="Trends">
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TRENDS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dfcb289bf1c13b7ce1c44860cb09e40c05023848.jpg" alt="">
+                            <span class="movie-list-item-title">Godzilla vs Kong</span>
+                            <p class="movie-list-item-desc">The next chapter in monsterverse pits two of the greatest 
+                                icons in motion picture history against one another Godzilla vs Kong </p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/godzillavskong.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/image.jfif" alt="">
+                            <span class="movie-list-item-title">Conjuring 2021</span>
+                            <p class="movie-list-item-desc">The Warrens investigate a murder that may be linked to a demonic possession.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/conjuring.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/jbareham_201215_1055_ww84_lead.jpg" alt="">
+                            <span class="movie-list-item-title">Wonder Woman</span>
+                            <p class="movie-list-item-desc">Wonder Woman 1984 contend with a businessman whose desire for
+                                 extreme wealth sends the world down a path of destruction.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/wonderwoman.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/tom-and-jerry-e1613569468758.jpg" alt="">
+                            <span class="movie-list-item-title">Tom and Jerry</span>
+                            <p class="movie-list-item-desc">A chaotic battle ensues between Jerry Mouse, who has taken 
+                            Royal Gate Hotel and big wedding arrives.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/tomandjerry.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/SUISQ2_Star_Tsr_1sht_VERT_2764x4096_DOM.6.jpg" alt="">
+                            <span class="movie-list-item-title">Suicide Squad</span>
+                            <p class="movie-list-item-desc">Supervillains and a collection of nutty they are dropped off at the remote,
+                                 enemy-infused island of Corto Maltese.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/sucidesquad.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/bossbabyheader.jpg" alt="">
+                            <span class="movie-list-item-title">The Boss Baby</span>
+                            <p class="movie-list-item-desc">New boss baby with a cutting-edge approach is about to bring brothers together 
+                            and inspire a new family business.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/bossbaby.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/noxSquare.jpg" alt="">
+                            <span class="movie-list-item-title">The Courier</span>
+                            <p class="movie-list-item-desc">Cold War spy Greville Wynne and his Russian source try to put an end to the
+                                 Cuban Missile Crisis.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/courier.html'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            </Section>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0),#151515), url('img/thumb-1920-893929.jpg');"
+                >
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc"> Dark follows characters from the fictional German town of Winden as they pursue the truth. 
+                    They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans 
+                    several generations. The series explores the existential implications of time, and its effect on human nature.</p>
+                <button class="featured-button2"  onClick="location.href='Movies/dark.html'">Watch</button>
+            </div>
+            <Section id="Series">
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">SERIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Dark-Netflix-Computer-Wallpaper.jpg" alt="">
+                            <span class="movie-list-item-title">Dark</span>
+                            <p class="movie-list-item-desc">A family saga with a supernatural twist,where the 
+                                disappearance of two young children exposes the relationships among four families.</p>
+                            <button class="movie-list-item-button"  onClick="location.href='Movies/dark.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/stranger-things-season-3-starcourt-teaser-netflix.jpg" alt="">
+                            <span class="movie-list-item-title">Stranger Things</span>
+                            <p class="movie-list-item-desc">When a young boy disappears, his mother, a police chief and his friends 
+                                must confront terrifying supernatural forces in order to get him back.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/strangerthings.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/jackson-caspersz-got-poster.jpg" alt="">
+                            <span class="movie-list-item-title">Game Of Thrones</span>
+                            <p class="movie-list-item-desc">Nine noble families fight for control over the lands of Westeros, while an 
+                                ancient enemy returns after being dormant for millennia.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/got.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/money-heist-season-5.jpg" alt="">
+                            <span class="movie-list-item-title">Money Heist</span>
+                            <p class="movie-list-item-desc">An unusual group of robbers attempt to carry out the most perfect robbery in
+                            stealing 2.4 billion euros from the Royal Mint of Spain.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/moneyheist.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/p05m69vt.jpg" alt="">
+                            <span class="movie-list-item-title">Peaky Blinders</span>
+                            <p class="movie-list-item-desc">A gangster family  in 1900s England, centering on a gang who sew 
+                                razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/peakyblinders.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Loki.jpg" alt="">
+                            <span class="movie-list-item-title">Loki</span>
+                            <p class="movie-list-item-desc">The mercurial villain Loki resumes his role as the God of Mischief in a new
+                                 series that takes place after the events of “Avengers: Endgame.”</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/loki.html'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Sweet Tooth.jfif" alt="">
+                            <span class="movie-list-item-title">Sweet Tooth</span>
+                            <p class="movie-list-item-desc">A boy who is half human and half deer survives in a post-apocalyptic world
+                                 with other hybrids.</p>
+                            <button class="movie-list-item-button" onClick="location.href='Movies/sweettooth.html'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+           </Section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
